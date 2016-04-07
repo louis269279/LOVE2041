@@ -1,0 +1,34 @@
+Date	Start	Stop	Activity	Comments
+18/10	13:30	14:15	Coding		Removed private information from profile page
+21/10	16:05	17:55	Coding		Added logout button feature, and Login screen
+21/10	19:00	20:50	Coding		Added displaying sets of profiles, but buttons do not work at the moment
+27/10	14:10	14:50	Debugging	Fixed bug which caused forms to not work properly
+27/10	20:40	21:00	Coding		Made "next set" button working, but clicking on profile not implemented
+28/10	16:10	17:50	Coding		Made toolbar, implemented previous student and previous set button
+31/10	11:55	13:00	Coding		Made search feature, and working username buttons on display sets page
+31/10	13:08	13:16	Debugging	Stopped it from overflowing array bounds for displaying profiles and sets
+31/10	23:00	23:30	Coding		Now displays additional pictures on browse screen
+01/11	08:20	11:30	Coding		Prototype of matching algorithm completed, just need to improve algorithm
+01/11	12:00	14:00	Coding		Improved matching algorithm, removed same gender appearing on match screen and checks for similarities with age, height, weight
+01/11	15:00	16:00	Coding		Displays sets of best matches, with working nagivation buttons for sets (next/prev)
+01/11	18:00	19:10	Coding		Fixed up search so it now displays a list of users with that substring and 10 per page
+01/11	19:30	20:00	Coding		Made a min length for the search term, can only search for 3 characters min and next/prev buttons appear only when necessary
+01/11	20:20	21:00	Styling		Added comments in code to make it more clear
+01/11	23:00	01:30	Coding		Create users implemented, new user only has username, password and email in profile.txt though
+02/11	11:00	2:10	Coding		Added a background image, working password recovery
+02/11	14:30	14:53 	Styling		Moved code and made it alot neater, added extra comments in places
+02/11	15:10	16:30	Coding		Change password working when logged in. Frame work created for user settings
+02/11	16:46	17:15	Debugging	Debugged previous set button on display_sets page, goes to correct set, not just last 10 people now (for consistency)
+02/11	18:00	20:35	Coding		Added possibility to change profile description and delete account feature implemented
+02/11	20:35	21:50	Coding		Improved matching algorithm, now takes into account other likes/interests with favourite movies/books etc
+02/11	22:00	22:23	Coding		Found bug with matching algorithm, was opening wrong file, also implemented age mismatches (-2 points if age diff > 15)
+02/11	22:40	23:57	Coding		Implemented account suspension and reactivation
+03/11	00:36	02:51	Coding		Implemented uploading pictures and deleting pictures
+03/11	11:15	12:57	Coding		Made selecting profile picture, but for some reason there is a delay in the change..
+03/11	13:11	13:19	Coding		Fixed up uploading, when used in conjunction with deleting, it wouldnt save it as the lowest photo??.jpg, where ?? is lowest number.
+03/11	13:20	13:45	Coding		Users can now send messages to each other when they are on the other person's profile page
+03/11	14:40	15:14	Coding		Made an encryption for users creating an account, so they can't define parameters to create accounts
+03/11	15:25	15:45	Coding		Did encrypting for forgotten password aswell
+03/11	17:00	17:50	Debugging	Fixing up code, and added a default_profile image for users without a profile.jpg
+03/11	17:50	18:20	Debugging	Makes the necessary directories if it doesn't exist, a message appears when there's no images to delete
+03/11	22:00	23:20	Coding		Added editting preferences
